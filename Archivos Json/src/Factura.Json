@@ -1,0 +1,37 @@
+{
+  "factura": {
+    "informacion_empresa": {
+      "nombre": "Nombre de la Empresa",
+      "direccion": "Dirección de la Empresa, Ciudad, Estado, Código Postal",
+      "telefono": "(000) 000-0000",
+      "email": "email@empresa.com",
+      "sitio_web": "www.empresa.com"
+    },
+    "detalles_factura": {
+      "numero_factura": 12345,
+      "fecha_factura": "mm/dd/yyyy",
+      "terminos": "Net 30",
+      "fecha_vencimiento": "mm/dd/yyyy"
+    },
+    "informacion_cliente": {
+      "nombre_cliente": "Nombre del Cliente",
+      "direccion_cliente": "Dirección del Cliente, Ciudad, Estado, Código Postal"
+    },
+    "items": [
+      {
+        "producto_servicio": "Producto o Servicio",
+        "descripcion": "Descripción de su producto o servicio",
+        "cantidad_horas": 0,
+        "tarifa": 0,
+        "monto": 0
+      }
+    ],
+    "totales": {
+      "subtotal": 0,
+      "impuesto": 0,
+      "envio": 0,
+      "total": 0
+    },
+    "mensaje_cliente": "¡Gracias por su compra! Por favor, devuelva esta factura con el pago."
+  }
+}
